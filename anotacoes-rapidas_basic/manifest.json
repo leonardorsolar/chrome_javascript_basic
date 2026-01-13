@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Anotações Rápidas",
+  "version": "1.0",
+  "description": "Bloco de notas rápido e simples",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Abrir Anotações"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}

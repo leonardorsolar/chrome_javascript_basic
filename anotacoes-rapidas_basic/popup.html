@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anotações Rápidas</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>📝 Minhas Anotações</h1>
+      <p class="subtitle">Suas ideias sempre à mão</p>
+    </div>
+    
+    <textarea 
+      id="notepad" 
+      placeholder="Digite suas anotações aqui...
+      
+Dica: Tudo é salvo automaticamente! 🚀"
+    ></textarea>
+    
+    <div class="footer">
+      <span class="save-indicator" id="saveStatus">
+        💾 Salvo automaticamente
+      </span>
+      <button id="clearBtn" class="clear-btn">
+        🗑️ Limpar
+      </button>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
